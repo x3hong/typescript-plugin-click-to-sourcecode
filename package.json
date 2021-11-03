@@ -1,0 +1,47 @@
+{
+  "name": "typescript-plugin-click-to-sourcecode",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "webpack": "webpack-dev-server --inline --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.0",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@svgr/webpack": "^5.5.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.3",
+    "css-loader": "^2.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^2.7.3",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^9.2.5",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "less-loader": "^10.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.4",
+    "style-loader": "^3.2.1"
+  }
+}

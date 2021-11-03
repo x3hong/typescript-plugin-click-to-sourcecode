@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    }
+}
