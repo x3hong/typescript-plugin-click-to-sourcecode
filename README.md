@@ -1,6 +1,8 @@
 A tiny typescript plugin,
+
 It helps you jump to the source code by clicking on elements in the page while developing.
-now we go to have a experience.
+
+Now we go to have a experience.
 #### install
 ```
 npm i 
@@ -29,11 +31,10 @@ first:
         loader: 'ts-loader',
         options: {
             getCustomTransformers: path.join(__dirname, './scripts/ts.js'),
-        },
+          },
         }
-
-    ]
-    },
+      ]
+}
 ```
 then restart the webpack.
 
